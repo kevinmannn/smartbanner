@@ -22,7 +22,6 @@ var options = {
 	app_author: 'Recon Instruments Inc.',
 	app_icon: 'http://i.imgur.com/hnuKdBf.png',
 	price: '$0.99',
-	max_resolution: 480,
 };
 
 MobileBanner.render(options);
