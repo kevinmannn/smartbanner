@@ -1,0 +1,102 @@
+#mobileBanner {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 70px;
+	background-color: #F2F2F2;
+	border-bottom: 2px solid #ccc;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+	line-height: 18px;
+   	color: #555;
+   	padding: 10px 0;
+}
+#mobileBanner > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+#mobileBanner > .close {
+	width: 7.5%;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	cursor: pointer;
+	font-weight: 400;
+}
+#mobileBanner > .app-icon {
+	width: 25%;
+}
+#mobileBanner > .app-icon > img {
+	width: 70px;
+	height: 70px;
+	border-radius: 15%;
+}
+#mobileBanner > .app-meta {
+	width: 50%;
+}
+#mobileBanner > .app-meta > h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 16px;
+	width: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+#mobileBanner > .app-meta > p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	width: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+#mobileBanner > .app-action {
+	width: 17.5%;
+	text-align: center;
+}
+#mobileBanner > .app-action > a {
+	color: #2F6BB5;
+	text-decoration: none;
+	font-size: 18px;
+}
+#mobileBanner[data-os="android"] {
+	background-color: #2196F3;
+	color: #fff;
+	border: 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+#mobileBanner[data-os="android"] > .close {
+	color: #E3F2FD;
+}
+#mobileBanner[data-os="android"] > .app-meta > h1 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px; 
+	line-height: 24px;
+}
+#mobileBanner[data-os="android"] > .app-meta > p {
+	color: #E3F2FD;
+	font-weight: 300;
+}
+#mobileBanner[data-os="android"] > .app-action > a {
+	color: #fff;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
