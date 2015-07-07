@@ -2,7 +2,7 @@ MobileBanner = (function() {
 	var self;
 	var options = {
 		position: 'fixed',
-		price: 'FREE',
+		price: 'Free',
 		height: 70,
 		vertical_padding: 10,
 		icon_dimension: 70,
