@@ -1,18 +1,20 @@
-# Mobile Smartbanner
+# smartbannerJS
 ## What is this?
 Add a native-looking smartbanner to promote your Google Play and App Store app on your mobile website. There are no dependencies required! This library works on any mobile web browser except Safari, as smartbanners are native on Safari for iOS.  
 
 Inspired by https://github.com/jasny/jquery.smartbanner
 
 ## How do I use this?
-Add the following 2 lines to your HTML or template file:
+It's easy!
+
+Just add the following 2 lines to your HTML or template file:
 
 ```
 <link rel="stylesheet" type="text/css" href="src/smartbanner.css">
 <script src="src/smartbanner.js" type="text/javascript"></script>
 ```
 
-Now render the banner in your Javascript file, using this example as a template:
+Now render the smartbanner in your Javascript file, using this example as a template:
 
 ```
 var options = {
@@ -29,7 +31,7 @@ MobileBanner.render(options);
 
 ## What options are available with htis?
 
-This is the full list of options, and their defaults:
+This is the full list of options, along with their defaults:
 - **app_store_id**: Apple App store ID. **Default**: None.
 - **play_store_id**: Google Play store ID/package name. **Default**: None.
 - **app_name**: Name of the app'. **Default**: None.
