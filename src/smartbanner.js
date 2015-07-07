@@ -9,23 +9,17 @@ MobileBanner = (function() {
 		max_resolution: 480,
 	};
 
-	function MobileBanner(options) {
+	function MobileBanner() {
 		self = this;
-
-		this.combineOptions(options);
-		this.render();
 	}
 
 	MobileBanner.prototype = {
-		render: function() {	
-			var w = this.viewportWidth();
-			console.log(w);
+		render: function(options) {	
+			this.combineOptions(options);
 
-			if(w <= +options.max_resolution) {
+			if(this.viewportWidth() <= +options.max_resolution) {
 				var html;
 				var os = this.getValidMobileOS();
-
-				console.log(os);
 
 				if(false === os) return;
 
@@ -139,5 +133,5 @@ MobileBanner = (function() {
 		},
 	}
 
-	return MobileBanner;
+	return new MobileBanner;
 })();
