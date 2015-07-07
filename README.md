@@ -36,7 +36,7 @@ This is the full list of options, and their defaults:
 - **app_author**: Author of the app. **Default**: None.
 - **app_icon**: URL to icon. Can be absolute, or relative to your site. **Default**: None.
 - **price**: Price of the app. **Default**: Free.
-- **max_resolution**: Max device resolution at which to show the smartbanner. **Default**: 480px.
-- **icon_dimension**: Desired size of the icon. **Default**: 70px.
-- **height**: Height of the smartbanner, exluding padding. **Default**: 70px.
-- **vertical_padding**: Padding at top and bottom of smartbanner. **Default**: 10px.
+- **max_resolution**: Max device resolution at which to show the smartbanner, in px. **Default**: 480.
+- **icon_dimension**: Desired size of the icon, in px. **Default**: 70.
+- **height**: Height of the smartbanner, exluding padding, in px. **Default**: 70.
+- **vertical_padding**: Padding at top and bottom of smartbanner, in px. **Default**: 10.
