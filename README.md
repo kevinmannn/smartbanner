@@ -34,7 +34,7 @@ This is the full list of options, and their defaults:
 - **play_store_id**: Google Play store ID/package name. **Default**: None.
 - **app_name**: Name of the app'. **Default**: None.
 - **app_author**: Author of the app. **Default**: None.
-- **app_icon**: URL to icon. **Default**: None.
+- **app_icon**: URL to icon. Can be absolute, or relative to your site. **Default**: None.
 - **price**: Price of the app. **Default**: Free.
 - **max_resolution**: Max device resolution at which to show the smartbanner. **Default**: 480px.
 - **icon_dimension**: Desired size of the icon. **Default**: 70px.
